@@ -40,5 +40,13 @@ int RobHouse(int moneys[], int len) {
 }
 
 int main() {
+    int house1[] = {3, 8, 4};
+    std::cout << RobHouse(house1, sizeof(house1)/sizeof(house1[0])) 
+        << std::endl;
+
+    int house2[] = {5, 2, 1, 3};
+    std::cout << RobHouse(house2, sizeof(house2)/sizeof(house2[0])) 
+        << std::endl;
+
     return 0;
 }
